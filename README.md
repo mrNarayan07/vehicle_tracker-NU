@@ -53,7 +53,8 @@ The path is drawn on the map using a polyline, and users can select a date to vi
    ```bash
    open index.html
 
-##Usage
+## Usage
+
 - **View Traveled Path**: Select a date from the dropdown menu to load the traveled path for that day. The path will be displayed on the map with distinct starting and ending points.
 
 - **View Current Location**: Click the "View Current Location" button to see the real-time position of the vehicle. The path will disappear while viewing the current location, but you can switch back to view the path.
