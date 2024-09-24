@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vehicle Movement on Map</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" />
+  <link rel="stylesheet" href="style.css"> <!-- Moved styles to external CSS -->
+</head>
+<body>
+  <div id="map"></div>
+  
+  <!-- Controls section -->
+  <div class="controls">
+    <label for="pathSelect">Select Date to View Traveled Path:</label>
+    <select id="pathSelect" onchange="loadTraveledPath(this.value)">
+      <option value="">Select a date</option>
+      <option value="2024-07-20">2024-07-20</option>
+    </select>
+
+    <button onclick="viewCurrentLocation()">View Current Location</button>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
